@@ -1,0 +1,47 @@
+footer {
+  background-color: black;
+  color: white;
+  padding: 50px 0;
+}
+footer img {
+  background-color: #8a8a8a;
+  -webkit-transition: all 200ms ease-out;
+  -moz-transition: all 200ms ease-out;
+  -o-transition: all 200ms ease-out;
+  -ms-transition: all 200ms ease-out;
+  transition: all 200ms ease-out;
+}
+footer img:hover {
+  background-color: white;
+}
+.facebook,
+.linkedin,
+.pinterest,
+.email {
+  padding: 31%;
+}
+.facebook img,
+.linkedin img,
+.pinterest img,
+.email img {
+  width: 50px;
+}
+
+.companyInformation,
+.homeFooter,
+.portfolioFooter,
+.resumeFooter,
+.contactFooter {
+  margin-top: 50px;
+}
+.footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.homeFooter a,
+.portfolioFooter a,
+.resumeFooter a,
+.contactFooter a {
+  color: white;
+}
